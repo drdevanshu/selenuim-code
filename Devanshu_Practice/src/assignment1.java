@@ -16,7 +16,8 @@ public class assignment1 {
 		driver.findElement(By.id("pass")).sendKeys("hello");
 		driver.findElement(By.id("u_0_2")).click();
 		driver.close();
-		//driver.quit();
+		driver.quit();
+		//git changes test
 		
 	}
 
